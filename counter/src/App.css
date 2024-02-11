@@ -1,0 +1,41 @@
+*{
+  font-size: 20px;
+}
+
+.App{
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2{
+  color: #fff;
+  font-size: 40px;
+  margin: 0 auto;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  background-color: tomato;
+  padding: 70px;
+  border-radius: 20px;
+}
+
+.btn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+}
+
+.btn button{
+  /* margin-right: 50px; */
+  padding: 20px 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
